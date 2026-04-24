@@ -1,6 +1,8 @@
 # MC-Game-dummy
 
-免费容器平台拉取镜像填写环境变量：
+在免费容器平台部署拉取镜像填写环境变量：
+
+镜像=ghcr.io/fnosnas/mc-bot:latest
 
 MC_HOST=游戏平台分配地址
 
@@ -11,7 +13,7 @@ MC_USERNAME =游戏人物的名字
 注意: Minecraft支持插件能用的只有 Paper、Spigot、Purpur，其中 Paper 最合适
 
 
-在VPS上部署
+如果在VPS上部署:
 ```
 docker run -d \
   --name mc-bot \

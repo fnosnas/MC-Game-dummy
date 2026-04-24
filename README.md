@@ -29,3 +29,11 @@ docker run -d \
 
 -e 填写环境变量
 
+查看日志确认是否连接成功命令
+```
+docker logs -f mc-bot
+```
+删除容器
+```
+docker rm -f mc-bot
+

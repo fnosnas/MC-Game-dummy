@@ -20,3 +20,12 @@ docker run -d \
   -e MC_PORT=XXXX \
   -e MC_USERNAME=XXXX \
   ghcr.io/fnosnas/mc-bot:latest
+```
+说明：
+
+-d 后台运行
+
+--restart always VPS重启后自动重启容器
+
+-e 填写环境变量
+

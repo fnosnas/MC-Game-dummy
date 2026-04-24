@@ -8,3 +8,4 @@ MC_PORT=分配的端口
 
 MC_USERNAME =游戏人物的名字
 
+注意: Minecraft支持插件能用的只有 Paper、Spigot、Purpur，其中 Paper 最合适
